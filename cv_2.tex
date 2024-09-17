@@ -1,0 +1,99 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip} % Gestione automatica dello spazio tra paragrafi
+\pagenumbering{gobble} % Rimuove la numerazione delle pagine
+\setlength{\parindent}{0pt} % Disattiva l'indentazione dei paragrafi
+
+% Adjust space between sections and subsections
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+\titlespacing*{\subsection}{0pt}{4pt}{4pt}
+
+\raggedbottom % Evita di riempire forzatamente la pagina
+
+\begin{document}
+\thispagestyle{empty} % Nessuna numerazione o intestazione nella prima pagina
+
+% Start of the two-column layout
+\noindent
+\begin{minipage}[t]{0.25\textwidth}
+    % Left side content
+    \vspace{0.3cm}
+    { \LARGE  \textbf{Lattaruolo \\[0.1cm] Andrea}} \\
+    
+    { \LARGE \textbf{\textcolor{orange}{\newline Software \\[0.1cm] developer}}} \\   
+    \section*{}
+    \rule{0.6cm}{0.3mm}
+    \section*{Experience}
+    \vspace{6.7cm} % Ridotto lo spazio riservato per Experience
+    \rule{0.6cm}{0.3mm}
+    \section*{Personal projects}
+    \vspace{2.8cm} % Ridotto lo spazio per Personal Projects
+    \rule{0.6cm}{0.3mm}
+    \section*{Education}
+    \vspace{4cm} % Ridotto lo spazio per Education
+    \rule{0.6cm}{0.3mm}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.75\textwidth}
+    \rule{\linewidth}{0.5mm} % Riduci questo spazio per evitare che tutto scorra su un'altra pagina
+    \subsection*{Contacts}
+    \begin{itemize}[leftmargin=1cm]
+        \item Email: lattaruolo.96@gmail.com
+        %\item Cellphone: +39 3489937013
+    \end{itemize}
+    \rule{\linewidth}{0.5mm}
+    \\[0.1cm]
+    Genuinely understanding of problems during a software development process and ability to find solutions to them. With a background of solo and team developing. \\[0.3cm]
+    Proficient in Python, Angular and Flutter \\[0.1cm]
+    Good in Java, Typescript, Html, Css, SQL, Firebase, Github, Docker
+
+    \rule{\linewidth}{0.5mm}
+    \subsection*{Fondazione Bruno Kessler/ Software developer - Full stack}
+    \textit{ March 2020 - Present, Trento Italy  } \\
+    \begin{itemize}[leftmargin=1cm]
+        \item Developed a windows application for satellite image downloading and transformation using Python and Ionic (back-end and front-end).
+        \item Docker image creation for satellite image downloading and transformation.
+        \item LLM research how to use them using Llama models and HuggingFace models.
+        \item Front end development of a console using Angular.
+        \item Decomposing a software application in different microservices using Java Springboot.
+    \end{itemize}
+    \vspace{0.2cm} % Riduci lo spazio qui se necessario
+    \subsection*{Edith Group /Software developer - Back end}
+    \textit{January 2020 - March 2020, Udine Italy} \\
+    \begin{itemize}[leftmargin=1cm]
+        \item C\# debugging and testing on applications.
+        \item SQL queries scripting.
+    \end{itemize}
+    \rule{\linewidth}{0.5mm}
+    \subsection*{Khamilia / Flutter app - Google Firebase }
+    \textit{June 2024 - Ongoing, Trento, Italy} \\
+    \begin{itemize}[leftmargin=1cm]
+        \item Khamilia is your journal personal assistant improving quality of life
+        \item Developed during the Gemini API Developer Competition
+    \end{itemize}
+    \subsection*{Leetcode / Daily problems solving }
+    \textit{June 2024 - Ongoing, Trento, Italy} \\
+    \begin{itemize}[leftmargin=1cm]
+        \item Proficient in easy and medium problems
+    \end{itemize}
+    \rule{\linewidth}{0.5mm}
+    \subsection*{University of Udine / Master degree - Algorithms and automatic reasoning }
+    \textit{December 2018 - December 2020, Udine, Italy} \\
+    \begin{itemize}[leftmargin=1cm]
+        \item Abroad study at Griffith university \textit{May 2019 - November 2019, Gold Coast, Australia} 
+        \item B2 certifications IELTS to attend to the Australian university
+    \end{itemize}
+
+    \subsection*{University of Udine / Bachelor degree - Computer science }
+    \textit{September 2015 - December 2019, Udine, Italy} \\
+    \rule{\linewidth}{0.5mm}
+    
+\end{minipage}
+
+\end{document}
