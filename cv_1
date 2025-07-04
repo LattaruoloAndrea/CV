@@ -1,0 +1,71 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+
+\begin{document}
+
+% Header
+{\LARGE \textbf{Lattaruolo Andrea}} \\[0.2em]
+{\LARGE\textcolor{orange}{\textbf{Software Engineer I}}} \\[0.5em]
+Email: \textbf{lattaruolo.96@gmail.com}, LinkedIn: \href{https://www.linkedin.com/in/andrea-lattaruolo-64a8a7170}{LattaruoloAndrea}, GitHub: \href{https://github.com/LattaruoloAndrea}{github.com/LattaruoloAndrea}
+
+% Skills
+\section*{Skills}
+\subsection*{Summary}
+\begin{itemize}[leftmargin=1.2em]
+    \item Identify and resolve issues during the software design process in architecture design for personal and work projects. Experienced in both solo and team development. Adaptable in using different coding languages over years of experience. Passionate about solving complex coding challenges and committed to personal projects.
+    \item \textbf{Advanced:} Python (FastAPI, Pandas), JavaScript (Angular), Dart (Flutter)
+    \item \textbf{Intermediate:} Java (Spring Boot), TypeScript (Ionic)
+    \item \textbf{Tools \& Platforms:} Git, Docker, Llama
+\end{itemize}
+
+% Experience
+\section*{Work Experience}
+\subsection*{Fondazione Bruno Kessler / Software Engineer}
+\textit{March 2021 -- Present, Trento, Italy}
+\begin{itemize}[leftmargin=1.2em]
+    \item 2+ years developing and maintaining a Windows application for satellite image downloading and processing using \textbf{Python} (backend) and \textbf{Ionic} (frontend).
+    Applied incremental development for scalable architecture design. Created \textbf{Docker} images to standardize the environment.
+    Contributed to the \href{https://github.com/CDSETool/CDSETool}{CDSE Tool GitHub repository}, implementing features and proposing improvements. nd implementing fea-
+tures, demonstrating a commitment to collaborative software development and continuous code
+enhancement.
+    \item 1+ years developing a manager console using \textbf{Angular}, focusing on responsive component-based design.
+    Designed a microservices architecture using \textbf{Java Spring Boot} to improve modularity.
+    Worked on \textbf{LLM research} using Llama and HuggingFace models to enhance NLP capabilities.
+\end{itemize}
+
+% Personal Projects
+\section*{Personal Projects}
+\subsection*{Khamilia / Flutter App - Google Firebase}
+\textit{June 2024 -- Ongoing, Trento, Italy}
+\begin{itemize}[leftmargin=1.2em]
+    \item Developed \textbf{Khamilia}, a personal journal assistant app, during the Gemini API Developer Competition. Used \textbf{Firebase} as a non-relational database and \textbf{Flutter} for app development. Showcase video: \href{https://www.youtube.com/watch?v=viXL9V_b6mo&ab_channel=pierodigia}{Khamilia on YouTube}
+\end{itemize}
+
+% Soft Skills
+\section*{Soft Skills}
+\begin{itemize}[leftmargin=1.2em]
+    \item Cultivated strong \textbf{teamwork skills} through professional experience and competitive volleyball.Demonstrated effective communication, cooperation, and support in collaborative settings. Known for \textbf{adaptability} and ability to perform in dynamic, fast-paced environments. Contributed positively to team success and cohesion through proactive collaboration.
+\end{itemize}
+
+% Education
+\section*{Education}
+\begin{itemize}[leftmargin=1.2em]
+    \item Master’s Thesis: \textit{"Convolutional Neural Networks for Protein Folding Prediction"}
+    \textit{University of Udine / Master’s Degree - Algorithms and Automatic Reasoning, 2018 -- 2020, Udine, Italy}
+\end{itemize}
+\begin{itemize}[leftmargin=1.2em]
+    \item Bachelor’s Thesis: \textit{"Microprocessor Case Study in Java and Python"} \textit{
+    University of Udine / Bachelor’s Degree - Computer Science, 2015 -- 2018, Udine, Italy}
+\end{itemize}
+
+\end{document}
